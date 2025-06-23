@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "ourfont";
+    src: url('fonts/IRANYekanBlack.ttf');
+}
+
+/* پایه و sticky footer */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: "ourfont";
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1; /* فضای بین محتوا و فوتر اگه کسی خواست include کنه باید کل محتوای صفحه اصلی خودشو در یک div با کلاسcontent قرار بده*/
+}
+
+/* فوتر */
+.footer_style {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 100px 40px 50px;
+    background-color: rgba(0, 0, 0, 0.85);
+    gap: 30px;
+    border-radius:20px 20px 0px 0px;
+}
+
+/* کارت معرفی یا همون باکسم*/
+.div1 {
+    width: 300px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px 20px;
+    position: relative;
+    text-align: center;
+    transition: 0.3s;
+}
+.div1:hover {
+    background: rgba(0, 0, 0, 0.61);
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(253, 223, 151, 0.2);
+}
+.img1_style {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid rgba(253, 223, 151, 0.5);
+}
+.h2_style1 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #FDDF97;
+}
+.p1 {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/* اطلاعات تماس و دسترسی سریع */
+.contact_info, .quickaccess {
+    width: 220px;
+}
+.h4_style1, .h4_style2, .h4_style3 {
+    color: #FDDF97;
+    border-bottom: 2px solid #E09664;
+    padding-bottom: 5px;
+    width: fit-content;
+    margin-bottom: 15px;
+}
+.contact_item, .link_item, .social_item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+}
+.contact_item p, .link_item a, .social_item a {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.link_item a:hover {
+    color: #FDDF97;
+}
+
+/* آیکون‌ها */
+.icon_style {
+    width: 24px;
+    height: 24px;
+    transition: 0.3s;
+}
+.icon_style:hover {
+    filter: brightness(1) invert(0.9);
+}
+
+/* شبکه‌های اجتماعی */
+.social_icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.social_icons img {
+    width: 35px;
+    height: 35px;
+}
+.social_icons_for_icon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-right: 20px;
+    gap: 10px;
+}
+
+/* نماد الکترونیک */
+.enamad {
+    margin-top: 0px;
+    margin-left: 10px;
+    width: 150px;
+}
+.enamad_icon {
+    width: 100%;
+    height: auto;
+}
+.enamad_p{
+    padding-right: 40px;
+}
+
+/* واکنش‌ گرایی موبایل */
+@media (max-width: 600px) {
+    .footer_style {
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 10px;
+    }
+    .div1, .contact_info, .quickaccess, .social_icons, .enamad {
+        width: 90%;
+    }
+    .img1_style {
+        width: 100px;
+        height: 100px;
+        top: -50px;
+    }
+    .h2_style1 { font-size: 18px; }
+    .p1 { font-size: 14px; }
+    .contact_item p, .link_item a, .social_item a { font-size: 14px; }
+    .icon_style { width: 25px; height: 25px; }
+}
