@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+header {
+  background-color: #364968;
+  width: 100%;
+  padding: 15px;
+  color: #fddf97;
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.menu,
+.close {
+  all: unset;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #6c4343;
+}
+
+.menu svg,
+.close svg {
+  width: 50px;
+  height: 50px;
+}
+
+.mobileNavbar {
+  width: 66%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background-color: #6c4343;
+  color: #fddf97;
+  transition: all 0.3s;
+  transform: translateX(100%);
+}
+
+.mobileNavbar ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.mobileNavbar ul a {
+  text-decoration: none;
+  color: #fddf97;
+}
+
+.mobileNavbar ul a:hover {
+  text-decoration: underline;
+}
+
+header ul {
+  display: none;
+}
+
+ul a {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .mobileNavbar {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  header ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  header ul a {
+    text-decoration: none;
+    color: #fddf97;
+  }
+
+  header ul a:hover {
+    text-decoration: underline;
+  }
+}
