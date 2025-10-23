@@ -1,4 +1,3 @@
-!--body--!
 <link rel="stylesheet" href="../styles/style.css">
 <header>
     <button class="menu" id="menu">
