@@ -28,4 +28,4 @@
         <li><a href="#">تماس با ما</a></li>
     </ul>
 </div>
-<script src="../scripts/script.js"></script>
+
