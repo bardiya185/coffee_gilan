@@ -44,9 +44,7 @@ Pull Request ارسال کنید
 
 📸 لوگو و طراحی
 <div align="center"> <img src="https://img.icons8.com/fluency/240/coffee-to-go.png" alt="Coffee To Go" /> </div>
-
-🎬 افکت‌های پیشنهادی برای متن‌ها
-css
+<style>
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
@@ -55,5 +53,6 @@ css
 h1 {
   animation: fadeIn 2s ease-in-out;
 }
+</style>
 📄 لایسنس
 این پروژه تحت لایسنس MIT منتشر شده است.
