@@ -126,9 +126,3 @@ learn_github/
   <text x="580" y="100" font-family="Inter, Arial, Roboto" font-size="48" fill="#fff" font-weight="700" text-anchor="start">learn_github</text>
   <text x="580" y="144" font-family="Inter, Arial, Roboto" font-size="18" fill="#9ca3af" text-anchor="start">Simple HTML · CSS · JavaScript starter</text>
 </svg>
-
-نکات:
-- اگر ترجیح میدید آیکون بزرگ PNG باشه یا اسکرین‌شات، بگید تا فایل مناسب تولید کنم یا آپلود کنم.
-- سایز پیش‌فرض لوگو در README: 360px عرض. قابل تغییره.
-
-می‌خوای همین README + فایل assets/logo.svg رو به شاخه improve/readme در مخزن‌ات اضافه کنم و commit بزنم؟ (بله / نه) اگر بله، آیا پیام commit و نام شاخه پیشنهادی مورد قبوله یا می‌خواهی تغییر بدی؟
