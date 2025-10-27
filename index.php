@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/footer_style.css">
   <title>Coffee Cards</title>
 </head>
+<?php include('layouts/header.php'); ?>
   <div class="container">
     <!-- Card 1 -->
     <div class="card">
@@ -87,5 +87,7 @@
       </div>
     </div>
   </div>
+  <?php include('layouts/footer.php'); ?>
+  <script type="module" src="scripts/script.js"></script>
 </body>
 </html>
