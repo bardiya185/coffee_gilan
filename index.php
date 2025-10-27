@@ -31,7 +31,7 @@
             <i class="bx bx-star"></i>
         </div>
         <div class="card-contect">
-            <h3></h3>
+            <h3>Cappuccino</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, esse alias. Voluptatum fugiat mollitia illum doloremque atque. Aut dolores rem quo, laboriosam atque fugit, pariatur eius amet fuga porro soluta.</p>
             <button class="add-to-cart">Add to cart</button>
         </div>
