@@ -33,6 +33,9 @@ header a img {
   padding: 5px;
   border-radius: 5px;
   background-color: #6c4343;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu svg,
