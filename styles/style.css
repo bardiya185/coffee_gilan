@@ -16,6 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 10;
 }
 
 header a img {
@@ -32,6 +33,9 @@ header a img {
   padding: 5px;
   border-radius: 5px;
   background-color: #6c4343;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu svg,
@@ -50,6 +54,7 @@ header a img {
   color: #fddf97;
   transition: all 0.3s;
   transform: translateX(100%);
+  z-index: 100;
 }
 
 .mobileNavbar ul {
@@ -106,6 +111,7 @@ ul a {
   }
 }
 
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -126,16 +132,20 @@ ul a {
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0,0,0, 0.04);
   transition:  0.4s ease; 
+
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.05);
 }
+
 
 .card .image-card{
   width: 100%;
   height: 180px;
   padding: 0 20px;
+
+
   text-align: center;
   background-color: #f4f7f8;
   border-radius: 12px;
@@ -143,16 +153,16 @@ ul a {
   overflow: hidden;
 }
 
-.card .image-card img{
+.card .image-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 12px;
   transition:  0.4s ease;
+
 }
 
-
-.card .image-card .bx-star{
+.card .image-card .bx-star {
   cursor: pointer;
   position: absolute;
   top: 8px;
@@ -161,8 +171,13 @@ ul a {
   font-size: 16px;
   color: #f7ae04;
   background: #fff;
+
   border-radius: 6px;
   box-shadow: 0 0 20px rgba(0,0,0, .04);
+
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.04);
+
 }
 
 .card .card-contect {
@@ -172,22 +187,25 @@ ul a {
   text-align: center;
 }
 
-.card .card-contect p{
+.card .card-contect p {
   color: #555;
   font-size: 14px;
   font-weight: 500;
   margin: 8px 0 22px;
   text-align: justify;
+
   line-height: 1.5;
+
 }
 
-.card .card-contect button{
+.card .card-contect button {
   cursor: pointer;
-  color:#fff;
+  color: #fff;
   width: 100%;
   height: 40px;
   font-size: 16px;
   font-weight: 600;
+
   border-radius: 120px;
   background: linear-gradient(90deg, rgba(108, 67, 67, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
 }
@@ -218,3 +236,26 @@ ul a {
     margin: 10px 0;
   }
 }
+
+  border-radius: 12px;
+  background: linear-gradient(45deg, #fabd14, #eb9616);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  width: 66%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+

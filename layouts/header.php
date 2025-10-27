@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="../styles/style.css">
 <header>
     <button class="menu" id="menu">
         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -7,10 +6,11 @@
         </svg>
     </button>
     <a href="#">
-        <img src="../public/pictures/logo.jpg" alt="">
+        <img src="public/pictures/logo.jpg" alt="">
     </a>
     <ul>
         <li><a href="#">خانه</a></li>
+        <li><a href="#">رزرو میز</a></li>
         <li><a href="#">درباره ما</a></li>
         <li><a href="#">تماس با ما</a></li>
     </ul>
@@ -29,4 +29,4 @@
         <li><a href="#">تماس با ما</a></li>
     </ul>
 </div>
-<script src="../scripts/script.js"></script>
+
